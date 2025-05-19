@@ -36,7 +36,8 @@ class ReviewActivity : AppCompatActivity() {
             val questionTextView = TextView(this)
             questionTextView.text = getString(R.string.review_question, i + 1, questions[i])
             questionTextView.textSize = 20f
-            questionTextView.setTextColor(ContextCompat.getColor(this, R.color.black))
+            questionTextView.setBackgroundColor(ContextCompat.getColor(this, R.color.black))
+            questionTextView.setTextColor(ContextCompat.getColor(this, R.color.white)) // Changed text color to white for readability against black background
             questionTextView.setTypeface(null, Typeface.BOLD)
             questionTextView.setPadding(0, 16, 0, 8)
             reviewLinearLayout.addView(questionTextView)

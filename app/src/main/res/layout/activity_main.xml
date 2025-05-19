@@ -14,18 +14,6 @@
     // Available:https://i.pinimg.com/736x/fe/dc/ac/fedcac07ce4f59123d16815bd41525e3.jpg -->
 
     <!-- Background Image -->
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/icl"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
     <!-- Unique ID for background image -->
     <!--Width spans full screen-->
     <!-- Scales image to fill, cropping as necessary-->
@@ -38,31 +26,9 @@
     <!-- Padding around the container -->
     <!-- Semi-transparent overlay for better readability-->
 
-    <!-- App Title: TextView that displays the title of the app -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:padding="200dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-190dp" />
 
     <!-- App Title: TextView that displays the title of the app -->
-    <TextView
-        android:id="@+id/welcomeTextView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:text="@string/welcome_message"
-        android:textAlignment="center"
-        android:textSize="35sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
     <!-- Unique ID for title text -->
     <!-- Width adjusts to text length -->
     <!-- Height adjusts to text content -->
@@ -73,48 +39,79 @@
     <!-- Centers the text horizontally -->
     <!-- Space below the title -->
 
-    <TextView
-        android:id="@+id/descriptionTextView"
-        android:layout_width="376dp"
-        android:layout_height="100sp"
-        android:layout_marginTop="32dp"
-        android:text="@string/App_Description"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        android:textStyle="bold"
+    <!-- Unique ID for title text -->
+    <!-- Width adjusts to text length -->
+    <!-- Height adjusts to text content -->
+    <!-- Display text -->
+    <!-- Text size -->
+    <!-- Bold style -->
+    <!-- Black text colour -->
+    <!-- Centers the text horizontally -->
+    <!-- Space below the title -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icl"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="@string/welcome_message"
+        android:textAlignment="center"
+        android:textColor="#230E0E"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="385dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:text="@string/app_description"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83"
         tools:ignore="TextSizeCheck" />
-    <!-- Unique ID for title text -->
-    <!-- Width adjusts to text length -->
-    <!-- Height adjusts to text content -->
-    <!-- Display text -->
-    <!-- Text size -->
-    <!-- Bold style -->
-    <!-- Black text colour -->
-    <!-- Centers the text horizontally -->
-    <!-- Space below the title -->
 
     <Button
         android:id="@+id/startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="@string/start_button"
-        android:textSize="30sp"
-        android:textColor="@color/white"
         android:backgroundTint="@color/black"
+        android:text="@string/start_button"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.894" />
+        app:layout_constraintVertical_bias="0.958" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

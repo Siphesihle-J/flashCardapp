@@ -4,8 +4,8 @@
 
 
 <!-- Main Activity -->
-<string name="welcome_message">Welcome to History Flashcards!</string>
-<string name="app_description">Test your knowledge of historical events with these true/false flashcards. Answer all five questions to see your final score.</string>
+<string name="welcome_message">WELCOME TO THE HISTORY QUIZ!</string>
+<string name="app_description">HOW WELL DO YOU KNOW THE PAST? FIND OUT WITH THESE TRUE/FALSE FLASHCARD</string>
 <string name="start_button">Start Quiz</string>
 
 <!-- Flashcard Activity -->
