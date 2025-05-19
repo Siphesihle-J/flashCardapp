@@ -8,13 +8,40 @@
     tools:context=".FlashcardActivity"
     android:padding="16dp">
 
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgroundimage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+    <!-- Unique ID for background image -->
+    <!--Width spans full screen-->
+    <!-- Scales image to fill, cropping as necessary-->
+
+    <!-- Content Container: LinearLayout to hold all interactive UI elements with a semi-transparent overlay -->
+    <!-- Container width spans full screen-->
+    <!-- Container height spans full screen-->
+    <!-- Arrange child elements vertically -->
+    <!-- Center the children horizontally and vertically -->
+    <!-- Padding around the container -->
+    <!-- Semi-transparent overlay for better readability-->
+
     <TextView
         android:id="@+id/questionTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
+        android:textStyle="bold"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
