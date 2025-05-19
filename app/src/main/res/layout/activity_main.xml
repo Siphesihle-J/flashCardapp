@@ -8,6 +8,12 @@
     tools:context=".MainActivity"
     android:padding="16dp">
 
+    <!-- Title:Image
+    // Author: Pinterest
+    // Version: 1.0
+    // Available:https://i.pinimg.com/736x/fe/dc/ac/fedcac07ce4f59123d16815bd41525e3.jpg -->
+
+    <!-- Background Image -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -20,7 +26,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+    <!-- Unique ID for background image -->
+    <!--Width spans full screen-->
+    <!-- Scales image to fill, cropping as necessary-->
 
+    <!-- Content Container: LinearLayout to hold all interactive UI elements with a semi-transparent overlay -->
+    <!-- Container width spans full screen-->
+    <!-- Container height spans full screen-->
+    <!-- Arrange child elements vertically -->
+    <!-- Center the children horizontally and vertically -->
+    <!-- Padding around the container -->
+    <!-- Semi-transparent overlay for better readability-->
+
+    <!-- App Title: TextView that displays the title of the app -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="200dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-190dp" />
+
+    <!-- App Title: TextView that displays the title of the app -->
     <TextView
         android:id="@+id/welcomeTextView"
         android:layout_width="0dp"
@@ -35,6 +63,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <!-- Unique ID for title text -->
+    <!-- Width adjusts to text length -->
+    <!-- Height adjusts to text content -->
+    <!-- Display text -->
+    <!-- Text size -->
+    <!-- Bold style -->
+    <!-- Black text colour -->
+    <!-- Centers the text horizontally -->
+    <!-- Space below the title -->
 
     <TextView
         android:id="@+id/descriptionTextView"
@@ -53,15 +90,25 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.689"
         tools:ignore="TextSizeCheck" />
+    <!-- Unique ID for title text -->
+    <!-- Width adjusts to text length -->
+    <!-- Height adjusts to text content -->
+    <!-- Display text -->
+    <!-- Text size -->
+    <!-- Bold style -->
+    <!-- Black text colour -->
+    <!-- Centers the text horizontally -->
+    <!-- Space below the title -->
 
     <Button
         android:id="@+id/startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:background="@color/cardview_dark_background"
         android:text="@string/start_button"
         android:textSize="30sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

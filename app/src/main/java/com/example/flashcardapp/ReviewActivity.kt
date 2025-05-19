@@ -1,10 +1,12 @@
 package com.example.flashcardapp
 
+import android.graphics.Typeface
 import android.os.Bundle
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 
 /**
  * ReviewActivity displays all questions with their correct answers for review.
@@ -33,14 +35,18 @@ class ReviewActivity : AppCompatActivity() {
         for (i in questions.indices) {
             val questionTextView = TextView(this)
             questionTextView.text = getString(R.string.review_question, i + 1, questions[i])
-            questionTextView.textSize = 16f
+            questionTextView.textSize = 20f
+            questionTextView.setTextColor(ContextCompat.getColor(this, R.color.black))
+            questionTextView.setTypeface(null, Typeface.BOLD)
             questionTextView.setPadding(0, 16, 0, 8)
             reviewLinearLayout.addView(questionTextView)
 
             val answerTextView = TextView(this)
             val answerText = if (answers[i]) "True" else "False"
             answerTextView.text = getString(R.string.review_answer, answerText)
-            answerTextView.textSize = 16f
+            answerTextView.textSize = 20f
+            answerTextView.setTextColor(ContextCompat.getColor(this, R.color.black))
+            answerTextView.setTypeface(null, Typeface.BOLD)
             answerTextView.setPadding(32, 0, 0, 24)
             reviewLinearLayout.addView(answerTextView)
         }
