@@ -8,18 +8,53 @@
     tools:context=".FlashcardActivity"
     android:padding="16dp">
 
+    <!-- Title:Image
+    // Author: Pinterest
+    // Version: 1.0
+    // Available:https://i.pinimg.com/originals/e0/5a/0f/e05a0f50ef03d66a41cfb076f6b9fa98.jpg -->
+
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgroundimage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+    <!-- Unique ID for background image -->
+    <!--Width spans full screen-->
+    <!-- Scales image to fill, cropping as necessary-->
+
     <TextView
         android:id="@+id/questionTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
+        android:background="@color/white"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Question goes here" />
+    <!-- Unique ID for title text -->
+    <!-- Width adjusts to text length -->
+    <!-- Height adjusts to text content -->
+    <!-- Display text -->
+    <!-- Text size -->
+    <!-- Bold style -->
+    <!-- Black text colour -->
+    <!-- Centers the text horizontally -->
+    <!-- Space below the title -->
 
     <LinearLayout
         android:id="@+id/buttonLayout"
@@ -32,21 +67,38 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/questionTextView">
+        <!-- Content Container: LinearLayout to hold all interactive UI elements with a semi-transparent overlay -->
+        <!-- Container width spans full screen-->
+        <!-- Container height spans full screen-->
+        <!-- Arrange child elements vertically -->
+        <!-- Center the children horizontally and vertically -->
+        <!-- Padding around the container -->
+        <!-- Semi-transparent overlay for better readability-->
 
         <Button
             android:id="@+id/trueButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
+            android:textSize="35sp"
+            android:backgroundTint="@color/black"
             android:layout_marginEnd="16dp"
             android:text="@string/true_button" />
+        <!-- Unique ID for button -->
+        <!-- Button text -->
+        <!-- TextSize -->
+        <!-- Custom black colour tint -->
 
         <Button
             android:id="@+id/falseButton"
             android:layout_width="wrap_content"
-            android:textSize="20sp"
+            android:backgroundTint="@color/black"
+            android:textSize="35sp"
             android:layout_height="wrap_content"
             android:text="@string/false_button" />
+        <!-- Unique ID for button -->
+        <!-- Button text -->
+        <!-- TextSize -->
+        <!-- Custom black colour tint -->
 
     </LinearLayout>
 
@@ -55,24 +107,41 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="92dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/buttonLayout"
         tools:text="Feedback goes here" />
+    <!-- Unique ID for title text -->
+    <!-- Width adjusts to text length -->
+    <!-- Height adjusts to text content -->
+    <!-- Display text -->
+    <!-- Text size -->
+    <!-- Bold style -->
+    <!-- Black text colour -->
+    <!-- Centers the text horizontally -->
+    <!-- Space below the title -->
 
     <Button
         android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
-        android:textSize="25sp"
+        android:textSize="35sp"
+        android:backgroundTint="@color/black"
         android:text="@string/next_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/feedbackTextView" />
+    <!-- Unique ID for button -->
+    <!-- Button text -->
+    <!-- TextSize -->
+    <!-- Custom black colour tint -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

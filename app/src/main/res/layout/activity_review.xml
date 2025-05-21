@@ -8,6 +8,11 @@
     tools:context=".ReviewActivity"
     android:padding="16dp">
 
+    <!-- Title:Image
+    // Author: Pinterest
+    // Version: 1.0
+    // Available:https://preview.redd.it/r32y2vtrhvs31.jpg?auto=webp&s=d06b6001f49eb7b3ef0fd73900c3bc9eaad677be -->
+
     <!-- Background Image -->
     <ImageView
         android:id="@+id/imageView"
@@ -25,13 +30,6 @@
     <!--Width spans full screen-->
     <!-- Scales image to fill, cropping as necessary-->
 
-    <!-- Content Container: LinearLayout to hold all interactive UI elements with a semi-transparent overlay -->
-    <!-- Container width spans full screen-->
-    <!-- Container height spans full screen-->
-    <!-- Arrange child elements vertically -->
-    <!-- Center the children horizontally and vertically -->
-    <!-- Padding around the container -->
-    <!-- Semi-transparent overlay for better readability-->
 
     <TextView
         android:id="@+id/reviewHeaderTextView"
@@ -46,6 +44,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+    <!-- Unique ID for title text -->
+    <!-- Width adjusts to text length -->
+    <!-- Height adjusts to text content -->
+    <!-- Display text -->
+    <!-- Text size -->
+    <!-- Bold style -->
+    <!-- Black text colour -->
+    <!-- Centers the text horizontally -->
+    <!-- Space below the title -->
 
     <ScrollView
         android:layout_width="0dp"
@@ -64,7 +71,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="8dp" />
-
+        <!-- Content Container: LinearLayout to hold all interactive UI elements with a semi-transparent overlay -->
+        <!-- Container width spans full screen-->
+        <!-- Container height spans full screen-->
+        <!-- Arrange child elements vertically -->
+        <!-- Center the children horizontally and vertically -->
+        <!-- Padding around the container -->
+        <!-- Semi-transparent overlay for better readability-->
 
     </ScrollView>
 
@@ -79,5 +92,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+    <!-- Unique ID for button -->
+    <!-- Button text -->
+    <!-- TextSize -->
+    <!-- Custom black colour tint -->
+    <!-- White text colour -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

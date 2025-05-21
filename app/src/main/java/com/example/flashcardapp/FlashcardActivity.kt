@@ -13,12 +13,22 @@ import android.widget.TextView
  */
 class FlashcardActivity : AppCompatActivity() {
 
+    // Title: Declarations
+    // Author: Kotlin programming logic
+    // Version: 1.0
+    // Available: https://kotlinlang.org/spec/declarations.html
+
     // Declare UI elements
     private lateinit var questionTextView: TextView
     private lateinit var feedbackTextView: TextView
     private lateinit var trueButton: Button
     private lateinit var falseButton: Button
     private lateinit var nextButton: Button
+
+    // Title: Arrays
+    // Author:W3schools
+    // Version: 1.0
+    // Available: https://www.w3schools.com/programming/prog_arrays.php
 
     // Arrays for questions and answers
     private val questions = arrayOf(
@@ -30,6 +40,11 @@ class FlashcardActivity : AppCompatActivity() {
     )
 
     private val answers = arrayOf(true, true, false, false, true)
+
+    // Title: Variables
+    // Author:W3schools
+    // Version: 1.0
+    // Available: https://www.w3schools.com/java/java_variables_print.asp
 
     // Variables to track progress
     private var currentQuestionIndex = 0
@@ -71,6 +86,11 @@ class FlashcardActivity : AppCompatActivity() {
         nextButton.isEnabled = false
         answerSelected = false
     }
+
+    // Title: Kotlin If ... Else
+    // Author: w3schools
+    // Version: 1.0
+    // Available: https://www.w3schools.com/programming/prog_if.php
 
     /**
      * Checks if the user's answer is correct and provides feedback

@@ -8,6 +8,11 @@
     tools:context=".MainActivity"
     android:padding="16dp">
 
+    <!-- Title:Image
+    // Author: Pinterest
+    // Version: 1.0
+    // Available:https://i.pinimg.com/736x/fe/dc/ac/fedcac07ce4f59123d16815bd41525e3.jpg -->
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -19,39 +24,69 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
+    <!-- Background Image -->
+    <!-- Unique ID for background image -->
+    <!--Width spans full screen-->
+    <!-- Scales image to fill, cropping as necessary-->
+
 
     <TextView
         android:id="@+id/welcomeTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
-        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:textColor="#230E0E"
         android:textStyle="bold"
         android:text="@string/welcome_message"
         android:textAlignment="center"
-        android:textSize="35sp"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <!-- App Title: TextView that displays the title of the app -->
+
+    <!-- Unique ID for title text -->
+    <!-- Width adjusts to text length -->
+    <!-- Height adjusts to text content -->
+    <!-- Display text -->
+    <!-- Text size -->
+    <!-- Bold style -->
+    <!-- Black text colour -->
+    <!-- Centers the text horizontally -->
+    <!-- Space below the title -->
+
+    <!-- Unique ID for title text -->
+    <!-- Width adjusts to text length -->
+    <!-- Height adjusts to text content -->
+    <!-- Display text -->
+    <!-- Text size -->
+    <!-- Bold style -->
+    <!-- Black text colour -->
+    <!-- Centers the text horizontally -->
+    <!-- Space below the title -->
+
+    <!-- Button to start the Quiz -->
 
     <TextView
         android:id="@+id/descriptionTextView"
-        android:layout_width="376dp"
-        android:layout_height="100sp"
+        android:layout_width="385dp"
+        android:layout_height="173dp"
         android:layout_marginTop="32dp"
-        android:text="@string/App_Description"
+        android:background="@color/white"
+        android:text="@string/app_description"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="30sp"
+        android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689"
+        app:layout_constraintVertical_bias="0.838"
         tools:ignore="TextSizeCheck" />
 
     <Button
@@ -59,7 +94,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:background="@color/cardview_dark_background"
+        android:backgroundTint="@color/black"
         android:text="@string/start_button"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,7 +102,11 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.894" />
-
+        app:layout_constraintVertical_bias="0.966" />
+    <!-- Unique ID for button -->
+    <!-- Button text -->
+    <!-- TextSize -->
+    <!-- Custom black colour tint -->
+    <!-- White text colour -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

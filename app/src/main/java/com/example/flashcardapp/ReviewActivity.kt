@@ -17,6 +17,17 @@ class ReviewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_review)
 
+    // Title: Variables
+    // Author:W3schools
+    // Version: 1.0
+    // Available: https://www.w3schools.com/java/java_variables_print.asp
+
+
+    // Title: Arrays
+    // Author:W3schools
+    // Version: 1.0
+    // Available: https://www.w3schools.com/programming/prog_arrays.php
+
         // Arrays for questions and answers (same as in FlashcardActivity)
         val questions = arrayOf(
             "The Union of South Africa was formed in 1910.",
@@ -41,6 +52,11 @@ class ReviewActivity : AppCompatActivity() {
             questionTextView.setTypeface(null, Typeface.BOLD)
             questionTextView.setPadding(0, 16, 0, 8)
             reviewLinearLayout.addView(questionTextView)
+
+            // Title: Kotlin If ... Else
+            // Author: w3schools
+            // Version: 1.0
+            // Available: https://www.w3schools.com/programming/prog_if.php
 
             val answerTextView = TextView(this)
             val answerText = if (answers[i]) "True" else "False"

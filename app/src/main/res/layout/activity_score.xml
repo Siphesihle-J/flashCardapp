@@ -8,11 +8,12 @@
     tools:context=".ScoreActivity"
     android:padding="16dp">
 
-    <!-- Background Image -->
-    <!-- Unique ID for background image -->
-    <!--Width spans full screen-->
-    <!-- Scales image to fill, cropping as necessary-->
+    <!-- Title:Image
+    // Author: Pinterest
+    // Version: 1.0
+    // Available: https://th.bing.com/th/id/OIP.kkXUhDWWluofKFPem3NUiAAAAA?cb=iwc2&rs=1&pid=ImgDetMain -->
 
+    <!-- Background Image -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -25,6 +26,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+    <!-- Unique ID for background image -->
+    <!--Width spans full screen-->
+    <!-- Scales image to fill, cropping as necessary-->
+
 
     <TextView
         android:id="@+id/scoreHeaderTextView"
@@ -40,6 +45,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+    <!-- Unique ID for title text -->
+    <!-- Width adjusts to text length -->
+    <!-- Height adjusts to text content -->
+    <!-- Display text -->
+    <!-- Text size -->
+    <!-- Bold style -->
+    <!-- Black text colour -->
+    <!-- Centers the text horizontally -->
+    <!-- Space below the title -->
 
     <TextView
         android:id="@+id/scoreTextView"
@@ -56,6 +70,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/scoreHeaderTextView"
         tools:text="3/5" />
+    <!-- Unique ID for title text -->
+    <!-- Width adjusts to text length -->
+    <!-- Height adjusts to text content -->
+    <!-- Display text -->
+    <!-- Text size -->
+    <!-- Bold style -->
+    <!-- Black text colour -->
+    <!-- Centers the text horizontally -->
+    <!-- Space below the title -->
 
     <TextView
         android:id="@+id/scoreFeedbackTextView"
@@ -72,6 +95,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/scoreTextView"
         tools:text="Feedback based on score" />
+    <!-- Unique ID for title text -->
+    <!-- Width adjusts to text length -->
+    <!-- Height adjusts to text content -->
+    <!-- Display text -->
+    <!-- Text size -->
+    <!-- Bold style -->
+    <!-- Black text colour -->
+    <!-- Centers the text horizontally -->
+    <!-- Space below the title -->
 
     <Button
         android:id="@+id/reviewButton"
@@ -84,6 +116,10 @@
         app:layout_constraintTop_toBottomOf="@id/scoreFeedbackTextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+    <!-- Unique ID for button -->
+    <!-- Button text -->
+    <!-- TextSize -->
+    <!-- Custom black colour tint -->
 
     <Button
         android:id="@+id/exitButton"
@@ -97,5 +133,9 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/reviewButton" />
+    <!-- Unique ID for button -->
+    <!-- Button text -->
+    <!-- TextSize -->
+    <!-- Custom black colour tint -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

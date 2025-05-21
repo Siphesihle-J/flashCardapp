@@ -15,6 +15,11 @@ class ScoreActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_score)
 
+        // Title: Variables
+        // Author:W3schools
+        // Version: 1.0
+        // Available: https://www.w3schools.com/java/java_variables_print.asp
+
         // Get score from intent
         val score = intent.getIntExtra("SCORE", 0)
         val totalQuestions = intent.getIntExtra("TOTAL_QUESTIONS", 5)
@@ -27,6 +32,11 @@ class ScoreActivity : AppCompatActivity() {
 
         // Display score
         scoreTextView.text = getString(R.string.score_display, score, totalQuestions)
+
+        // Title: Kotlin If ... Else
+        // Author: w3schools
+        // Version: 1.0
+        // Available: https://www.w3schools.com/programming/prog_if.php
 
         // Provide feedback based on score
         if (score >= 3) {

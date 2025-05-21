@@ -14,6 +14,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Title: Variables
+        // Author:W3schools
+        // Version: 1.0
+        // Available: https://www.w3schools.com/java/java_variables_print.asp
+
         // Initialize the Start button and set its click listener
         val startButton = findViewById<Button>(R.id.startButton)
         startButton.setOnClickListener {
