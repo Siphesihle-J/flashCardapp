@@ -13,6 +13,12 @@
     // Version: 1.0
     // Available:https://i.pinimg.com/736x/fe/dc/ac/fedcac07ce4f59123d16815bd41525e3.jpg -->
 
+    <!-- Background Image -->
+    <!-- Unique ID for background image -->
+    <!--Width spans full screen-->
+    <!-- Scales image to fill, cropping as necessary-->
+
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -24,12 +30,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-    <!-- Background Image -->
-    <!-- Unique ID for background image -->
-    <!--Width spans full screen-->
-    <!-- Scales image to fill, cropping as necessary-->
-
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/welcomeTextView"
@@ -72,8 +73,8 @@
 
     <TextView
         android:id="@+id/descriptionTextView"
-        android:layout_width="385dp"
-        android:layout_height="173dp"
+        android:layout_width="374dp"
+        android:layout_height="221dp"
         android:layout_marginTop="32dp"
         android:background="@color/white"
         android:text="@string/app_description"
@@ -102,7 +103,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.966" />
+        app:layout_constraintVertical_bias="0.979" />
     <!-- Unique ID for button -->
     <!-- Button text -->
     <!-- TextSize -->
