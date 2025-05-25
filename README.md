@@ -15,21 +15,27 @@
 ## Screenshot
 
   ![image](https://github.com/user-attachments/assets/4dbb84db-5121-4323-b2f4-48616918311c)
+  
   -Figure 1: Welcome Screen of Flash Card App.
 
   ![image](https://github.com/user-attachments/assets/345f280a-f647-41f2-8709-27d1ac0a3819)
+  
   -Figure 2: This is the first page, it shows the question that the user has to answer. The user is given two options to choose from when answering (True/False).
 
   ![image](https://github.com/user-attachments/assets/6d558f36-da8e-4e6e-98e5-61e53b7e8f47)
+  
   -Figure 3: Feedback “Correct” is a clear indication that the user has answered the question correctly. The user is now given the option of going to the next screen by clicking “Next”.
 
   ![image](https://github.com/user-attachments/assets/02ceb9fd-7440-49c9-83a2-db27c7e2c4d9)
+  
   -Figure 4: Feedback “Incorrect” is a clear indication that the user has answered the question incorrectly.
 
   ![image](https://github.com/user-attachments/assets/8b5124e2-db5e-4165-a7a6-981ddbef2432)
+  
   -Figure 5: This is the Score Screen, on this screen the user is given a score based on their responses on the previous screens. The user is also given feedback based on their score. On this screen the user is also given the option to review the answers or to exit the app.
 
   ![image](https://github.com/user-attachments/assets/b5a5b7b5-bdd0-436b-939c-375b7237f0b4)
+  
   -Figure 6: This the review screen where the user is shown all the questions asked in this quiz and the correct responses.
 
 ## Technical Implementation
