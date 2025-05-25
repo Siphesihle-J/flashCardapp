@@ -6,10 +6,15 @@
 
 ## Features
   •	Welcome Screen: Displays a brief description of the app and a welcome message with a "Start" button.
+  
   •	Flashcard Questions: Five true/false history questions with immediate feedback.
+  
   •	Score Tracking: Keeps track of correct answers.
+  
   •	Score Screen: Displays the total score with personalized feedback based on performance.
+  
   •	Review Functionality: Allows users to review all questions with their correct answers.
+  
   •	Exit Option: Provides a clean way to exit the application.
 
 ## Screenshot
