@@ -86,21 +86,21 @@
   1.	Clone the repository: https://github.com/Siphesihle-J/flashCardapp.git
   2.	Open the project in Android Studio:
 
-  o	Launch Android Studio
+    o	Launch Android Studio
     
-  o	Select "Open an existing Android Studio project"
+    o	Select "Open an existing Android Studio project"
   
-  o	Navigate to the cloned repository and select it
+    o	Navigate to the cloned repository and select it
   
   4.	Build the project:
   
-  o	Click "Build" > "Rebuild Project"
+    o	Click "Build" > "Rebuild Project"
   
   5.	Run the application:
 
-  o	Connect an Android device or use an emulator
+    o	Connect an Android device or use an emulator
     
-  o	Click "Run" > "Run 'app'"
+    o	Click "Run" > "Run 'app'"
 
 ## CI/CD Integration
   This project includes GitHub Actions workflows for continuous integration:
