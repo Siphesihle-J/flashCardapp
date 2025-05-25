@@ -47,13 +47,14 @@
 
 ### Architecture
   The app follows a standard Android activity-based architecture:
-    •	MainActivity: Entry point with welcome screen
     
-    •	FlashcardActivity: Handles question display and answer processing
+  •	MainActivity: Entry point with welcome screen
     
-    •	ScoreActivity: Shows final results and feedback
+  •	FlashcardActivity: Handles question display and answer processing
     
-    •	ReviewActivity: Provides review functionality
+  •	ScoreActivity: Shows final results and feedback
+    
+  •	ReviewActivity: Provides review functionality
 
 ### Key Components
 
@@ -74,35 +75,54 @@
 ## Setup and Installation
 
 ### Prerequisites
+  
   •	Android Studio Arctic Fox (2021.3.1) or newer
+  
   •	Minimum SDK: API 21 (Android 5.0 Lollipop)
+  
   •	Target SDK: API 33 (Android 13)
 
 ### Steps to Run
   1.	Clone the repository: https://github.com/Siphesihle-J/flashCardapp.git
   2.	Open the project in Android Studio:
-    o	Launch Android Studio
-    o	Select "Open an existing Android Studio project"
-    o	Navigate to the cloned repository and select it
-  3.	Build the project:
-    o	Click "Build" > "Rebuild Project"
-  4.	Run the application:
-    o	Connect an Android device or use an emulator
-    o	Click "Run" > "Run 'app'"
+
+  o	Launch Android Studio
+    
+  o	Select "Open an existing Android Studio project"
+  
+  o	Navigate to the cloned repository and select it
+  
+  4.	Build the project:
+  
+  o	Click "Build" > "Rebuild Project"
+  
+  5.	Run the application:
+
+  o	Connect an Android device or use an emulator
+    
+  o	Click "Run" > "Run 'app'"
 
 ## CI/CD Integration
   This project includes GitHub Actions workflows for continuous integration:
-    •	Automated building and testing on every push to main branch
-    •	Code quality checks during pull requests
+    
+  •	Automated building and testing on every push to main branch
+    
+  •	Code quality checks during pull requests
 
 ## Future Enhancements
   Potential improvements for future versions:
-    •	User login/profile system
-    •	Expanded question database
-    •	Multiple quiz categories
-    •	Difficulty levels
-    •	Score history tracking
-    •	Timed quiz mode
+    
+  •	User login/profile system
+  
+  •	Expanded question database
+  
+  •	Multiple quiz categories
+  
+  •	Difficulty levels
+  
+  •	Score history tracking
+    
+  •	Timed quiz mode
 
 ## References
   W3schools, 2025. Arrays (version 1.0) [source code]
