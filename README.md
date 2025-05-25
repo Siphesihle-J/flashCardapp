@@ -48,8 +48,11 @@
 ### Architecture
   The app follows a standard Android activity-based architecture:
     •	MainActivity: Entry point with welcome screen
+    
     •	FlashcardActivity: Handles question display and answer processing
+    
     •	ScoreActivity: Shows final results and feedback
+    
     •	ReviewActivity: Provides review functionality
 
 ### Key Components
